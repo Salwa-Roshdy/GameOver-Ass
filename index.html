@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/all.min.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <title>Game Over</title>
+  </head>
+  <body>
+    <header><img src="imgs/wraper.png" class="w-100" alt="" /></header>
+    <nav
+      class="navbar navbar-expand-lg rounded-4 position-sticky top-0 z-3 w-75 mx-auto"
+    >
+      <div class="container-fluid">
+        <h5>
+          <img src="imgs/logo-sm.png" alt="" />
+          GAME REVIEWS
+        </h5>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                data-content="mmorpg"
+              >
+                MMORPG</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-content="shooter">SHOOTER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-content="sailing">SAILING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-content="permadeath">
+                PERMADEATH</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-content="superhero">
+                SUPERHERO</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-content="pixel"> PIXEL</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="Games">
+      <div class="container mt-5">
+        <div class="row gx-2 gy-4"></div>
+      </div>
+      <div
+        class="loading d-flex justify-content-center align-items-center min-vh-100"
+      >
+        <span class="loader"></span>
+      </div>
+    </section>
+
+    <div class="game-details text-white" id="gameDetails">
+      <div class="container">
+        <div
+          class="game-header d-flex justify-content-between align-items-center"
+        >
+          <h2 class="mt-5 mb-3 ps-2">Details Game</h2>
+
+          <i class="fa-solid fa-xmark fa-2x" id="closeBtn"></i>
+        </div>
+        <div class="container">
+          <div class="row"></div>
+        </div>
+      </div>
+ 
+    </div>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/index.js" type="module"></script>
+  </body>
+</html>
